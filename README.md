@@ -20,6 +20,8 @@ Both share the same camera front end: lens correction, ArUco detection and the p
 
 The software is free. The hardware is not included in this repository.
 
+The Crazyflie drone set can be bought from UNIPOS: https://www.unipos.net/products/bitcraze-crazyflie/
+
 - Crazyflie 2.1+ with a Flow Deck v2 and a Crazyradio (the drone, deck and dongle)
 - A USB camera that can give 640x480 at 30 fps and allows manual exposure, on a rigid mount pointing straight down
 - A Windows 10/11 or Linux PC with Python 3.10 or newer and two free USB ports
