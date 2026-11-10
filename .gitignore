@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+# Calibration and flight data are specific to each setup
+cf_vision_data/
+flight_log_*.csv
+flight2_log_*.csv
+phase2_lost_*.png
+phase2_settings.json
+camera_settings.json
+*_tmp.png
+phase1_no_marker.png
+phase2_no_marker.png

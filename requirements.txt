@@ -1,0 +1,13 @@
+# Versions validated on the Windows lab PC for the vision tools.
+# vision_pipeline_tool.py reads marker IDs in the array shape that OpenCV 5.x returns.
+# Do not pin OpenCV back to 4.x without re-checking that.
+# Install opencv-contrib-python, never plain opencv-python or opencv-python-headless
+# (cv2.aruco only ships in the contrib build, and the headless build has no windows).
+opencv-contrib-python==5.0.0.93
+numpy==2.5.3
+matplotlib==3.9.0
+keyboard==0.13.5
+
+# cflib: use the newest release (pip install --upgrade cflib).
+# After your first successful connection, run "pip show cflib" and pin that version here.
+cflib
